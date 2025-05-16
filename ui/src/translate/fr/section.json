@@ -1,0 +1,19 @@
+{
+  "head-zigzag": {
+    "zigzag": "Chaque plat est préparé à la commande, et nos chefs s'efforcent toujours de vous offrir la meilleure qualité possible.",
+    "zigzag-1": "Nous mettons tout en oeuvre chaque jour pour vous satisfaire et vous remercions sincèrement pour votre compréhension.",
+    "zigzag-2": "Nous vous prions de bien vouloir nous excuser pour d’éventuels délais."
+  },
+
+  "head-gallery": {
+    "gallery": "De plus, certains de nos plats sont proposés en quantités limitées, car nous souhaitons préserver la fraîcheur de nos ingrédients.",
+    "gallery-1": "Nous préférons ne pas conserver d’ingrédients d’un jour à l’autre et vous remercions pour votre aimable compréhension."
+  },
+
+  "slide": {
+    "paris": "PARIS",
+    "lunch-menu": "LUNCH MENU",
+    "seoul-menu": "SEOUL MENU",
+    "reservation": "Réservation"
+  }
+}

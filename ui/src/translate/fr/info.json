@@ -1,0 +1,20 @@
+{
+  "title": "SEOUL LAB",
+  "address": {
+    "address": "91 Rue Amelot, 75011 Paris",
+    "number": "+33)  06  60  67  67  21",
+
+    "text": "Horaires d’ouverture",
+
+    "lunch": "Le déjeuner",
+    "lunch-time": "12h00 ~ 14h00",
+
+    "dinner": "Le soir",
+    "dinner-time": "19h00 ~ 22h00",
+
+    "sunday": "Dimanche",
+    "sunday-tume": "Fermé",
+
+    "notification": "*Les horaires peuvent varier les jours fériés.*"
+  }
+}
