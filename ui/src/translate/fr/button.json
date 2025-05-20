@@ -1,4 +1,5 @@
 {
-  "reservation": "Réservation",
-  "send": "Envoyer"
+  "button": {
+    "searchall": "Rechercher tous les produits"
+  }
 }

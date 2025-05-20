@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 
 import App from "./App.jsx";
 import "./tailwind.css";
-import "./translate/i18n.js";
+import "./translate/i18n";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>

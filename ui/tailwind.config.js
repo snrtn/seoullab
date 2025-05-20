@@ -52,11 +52,12 @@ export default {
       },
 
       fontFamily: {
-        calder: ["Calder", "sans-serif"],
+        Calder: ["Calder", "sans-serif"],
+        MangoDdobak: ["MangoDdobak", "sans-serif"],
       },
 
       borderRadius: {
-        main: "0.125rem",
+        main: "0.1rem",
       },
 
       boxShadow: {

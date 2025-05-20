@@ -1,7 +1,8 @@
 import button from "./button.json";
-import contact from "./contact.json";
-import info from "./info.json";
+import card from "./card.json";
+import form from "./form.json";
 import navigation from "./navigation.json";
-import section from "./section.json";
+import page from "./page.json";
+import text from "./text.json";
 
-export { button, contact, info, navigation, section };
+export { button, card, form, navigation, page, text };

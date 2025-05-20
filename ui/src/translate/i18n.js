@@ -4,7 +4,34 @@ import LanguageDetector from "i18next-browser-languagedetector";
 
 import * as fr from "./fr";
 
+const currencyMap = {
+  fr: "EUR",
+};
+
 const LANGUAGE_KEY = "i18nextLng";
+
+const initCurrency = () => {
+  const savedLanguage = localStorage.getItem(LANGUAGE_KEY) || i18n.language;
+};
+
+export const getCurrencySymbol = (currencyCode) => {
+  switch (currencyCode) {
+    case "USD":
+      return "$";
+    case "EUR":
+      return "€";
+    default:
+      return "€";
+  }
+};
+
+export const getCurrency = () => {
+  return localStorage.getItem(CURRENCY_KEY) || currencyMap[i18n.language];
+};
+
+export const setCurrency = (currency) => {
+  localStorage.setItem(CURRENCY_KEY, currency);
+};
 
 export const setLanguage = (language) => {
   i18n.changeLanguage(language);
@@ -18,12 +45,14 @@ i18n
       fr: {
         translation: {
           ...fr.button,
-          ...fr.contact,
-          ...fr.info,
+          ...fr.card,
+          ...fr.form,
           ...fr.navigation,
-          ...fr.section,
+          ...fr.page,
+          ...fr.text,
         },
       },
+      // Add more languages as needed
     },
     fallbackLng: "fr",
     interpolation: {

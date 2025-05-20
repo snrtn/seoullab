@@ -1,14 +1,10 @@
 {
-  "home": "Accueil",
-  "menu": {
-    "title": "Menus",
-    "lunch": "Lunch menu",
-    "seoul": "Seoul menu",
-    "lab": "Lab menu",
-    "side": "Accompagnements | Sides",
-    "dessert": "Desserts",
-    "drink": "À Boire"
+  "side": {
+    "welcome": "Bienvenue"
   },
+
+  "home": "Accueil",
+  "menu": "Menus",
   "contact": "Contact",
   "reservation": "Réservation"
 }
