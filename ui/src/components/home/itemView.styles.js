@@ -13,8 +13,8 @@ const itemView = {
   hiddenSlide: "hidden tablet-lg:flex tablet-lg:w-0",
   firstSlide: "mx-[-5px]",
 
-  evenSlide: "h-[52vh] w-[35vh]",
-  oddSlide: "h-[48vh] w-[35vh]",
+  evenSlide: "h-[420px] w-[280px]",
+  oddSlide: "h-[400px] w-[280px]",
 
   // image: "w-full h-full object-cover transition group-hover:opacity-40",
   // overlay:

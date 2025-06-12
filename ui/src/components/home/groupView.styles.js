@@ -15,7 +15,7 @@ const group = {
   slide: "flex-shrink-0 flex flex-col overflow-hidden tablet-lg:flex-row",
   invisibleSlide: "invisible mx-[-8px] w-0",
   mainImageContainer:
-    "group relative h-[50vh] w-[50vh] tablet-lg:w-[50vh] p-1 tablet-lg:h-[70vh]",
+    "group relative h-[400px] w-[50vh] tablet-lg:w-[50vh] p-1 tablet-lg:h-[600px]",
   mainImage: "h-full w-full rounded-main object-cover transition",
   // duration-300 group-hover:opacity-70
   evenSlide: "",
@@ -24,7 +24,7 @@ const group = {
   //   "absolute inset-0 flex cursor-pointer items-center justify-center bg-white bg-opacity-10 opacity-0 transition duration-300 group-hover:opacity-100",
   overlayIcon: "text-3xl text-black",
   subImageContainer:
-    "flex h-[50vh] tablet-lg:h-[70vh] w-[50vh] tablet-lg:w-[30vh] tablet-lg:flex-col",
+    "flex h-[400px] tablet-lg:h-[600px] w-[50vh] tablet-lg:w-[30vh] tablet-lg:flex-col",
   subImage: "group relative h-1/2 w-full overflow-hidden p-1",
   subImageContent: "h-full w-full rounded-main transition  object-cover",
   // duration-300 group-hover:opacity-70
