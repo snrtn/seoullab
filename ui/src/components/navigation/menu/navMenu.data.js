@@ -1,3 +1,5 @@
+import { menuItems } from "../menuItems";
+
 const menus = {
   home: {
     label: "Accueil",
@@ -14,27 +16,23 @@ const menus = {
     sections: [
       {
         title: "Menus",
-        items: [
-          { label: "Lunch menu", href: "/" },
-          { label: "Seoul menu", href: "/" },
-          { label: "Lab menu", href: "/" },
-          { label: "Accompagnements | Sides", href: "/" },
-          { label: "Desserts", href: "/" },
-          { label: "À Boire", href: "/" },
-        ],
+        items: menuItems.map((item) => ({
+          label: item.label,
+          href: `/menu?type=${item.key}`,
+        })),
       },
     ],
   },
-  contact: {
-    label: "contact",
-    href: "/",
-    sections: [
-      {
-        title: "contact",
-        items: [{ label: "contact", href: "/" }],
-      },
-    ],
-  },
+  // contact: {
+  //   label: "contact",
+  //   href: "/",
+  //   sections: [
+  //     {
+  //       title: "contact",
+  //       items: [{ label: "contact", href: "/" }],
+  //     },
+  //   ],
+  // },
 };
 
 export default menus;

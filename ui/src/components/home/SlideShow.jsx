@@ -71,16 +71,18 @@ const SlideShow = ({ slides }) => {
             }`}
           >
             {slide.image && (
-              <Link to={slide.link}>
+              <div>
+                {/* <Link to={slide.link}> */}
                 <img
                   src={slide.image}
                   alt={slide.title}
                   className={itemView.image}
                 />
-                <div className={itemView.overlay}>
+                {/* <div className={itemView.overlay}>
                   <h3 className={itemView.overlayText}>{slide.title}</h3>
-                </div>
-              </Link>
+                  </div> */}
+                {/*</Link> */}
+              </div>
             )}
           </div>
         ))}

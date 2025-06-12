@@ -13,7 +13,7 @@ const slideControl = {
   slideContainer: "no-scrollbar flex space-x-2 overflow-x-auto flex-[3]",
 
   slideButton:
-    "flex-shrink-0 cursor-pointer font-Calder px-10 py-2 text-[10px]  rounded-full",
+    "flex-shrink-0 cursor-pointer font-Calder px-10 py-2 text-[10px]  rounded-full uppercase",
 
   activeSlide: "active-slide bg-bgBlack text-cWhite",
   inactiveSlide: "bg-bgGrayWhite text-cBlack",

@@ -131,6 +131,7 @@ const NavSide = ({ isOpen, onClose }) => {
                                 key={item.label}
                                 to={item.href}
                                 className={navSide.itemBtn}
+                                onClick={onClose}
                               >
                                 <span className={navSide.itemSubText}>
                                   {t(item.label)}

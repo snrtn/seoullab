@@ -112,45 +112,45 @@ const GroupView = () => {
           >
             <div className={group.mainImageContainer}>
               <div className="relative h-full w-full">
-                <Link to={slide.collectionLink}>
-                  <img
-                    src={slide.image}
-                    alt={slide.image}
-                    className={group.mainImage}
-                  />
-                  <div className={group.overlay}>
-                    <FaSearchPlus className={group.overlayIcon} />
-                  </div>
-                </Link>
+                {/* <Link to={slide.collectionLink}> */}
+                <img
+                  src={slide.image}
+                  alt={slide.image}
+                  className={group.mainImage}
+                />
+                {/* <div className={group.overlay}>
+                  <FaSearchPlus className={group.overlayIcon} />
+                </div> */}
+                {/* </Link> */}
               </div>
             </div>
             <div className={group.subImageContainer}>
               <div className={group.subImage}>
                 <div className="relative h-full w-full">
-                  <Link to={slide.productLinks[0]}>
-                    <img
-                      src={slide.images[0]}
-                      alt={slide.image}
-                      className={group.subImageContent}
-                    />
-                    <div className={group.overlay}>
+                  {/* <Link to={slide.productLinks[0]}> */}
+                  <img
+                    src={slide.images[0]}
+                    alt={slide.image}
+                    className={group.subImageContent}
+                  />
+                  {/* <div className={group.overlay}>
                       <FaSearchPlus className={group.overlayIcon} />
-                    </div>
-                  </Link>
+                    </div> */}
+                  {/* </Link> */}
                 </div>
               </div>
               <div className={group.subImage}>
                 <div className="relative h-full w-full">
-                  <Link to={slide.productLinks[1]}>
-                    <img
-                      src={slide.images[1]}
-                      alt={slide.image}
-                      className={group.subImageContent}
-                    />
-                    <div className={group.overlay}>
+                  {/* <Link to={slide.productLinks[1]}> */}
+                  <img
+                    src={slide.images[1]}
+                    alt={slide.image}
+                    className={group.subImageContent}
+                  />
+                  {/* <div className={group.overlay}>
                       <FaSearchPlus className={group.overlayIcon} />
-                    </div>
-                  </Link>
+                    </div> */}
+                  {/* </Link> */}
                 </div>
               </div>
             </div>

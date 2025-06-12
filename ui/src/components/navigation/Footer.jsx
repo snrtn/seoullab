@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import menus from "./menu/navMenu.data";
 import { useTranslation } from "react-i18next";
 import { FaInstagram } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
 import CustomIconLink from "@common/CustomIconLink";
 import useMediaQuery from "@hooks/useMediaQuery";
 
@@ -36,7 +37,8 @@ const Footer = () => {
 
   return (
     <div className="h-full bg-bgGrayWhite py-24 section-padding">
-      <div className="flex flex-col tablet-lg:flex-row gap-20">
+      <div className="flex flex-col tablet-lg:flex-row gap-20 justify-between">
+        {/* 좌측: 메뉴 섹션 */}
         <div className="flex flex-col flex-[2] gap-2">
           <div className="flex flex-col gap-8 flex-[4]">
             <h1
@@ -45,6 +47,7 @@ const Footer = () => {
             >
               SEOUL LAB
             </h1>
+
             {openSections.navigator && (
               <div className="grid gap-2 grid-cols-8 max-[900px]:grid-cols-2 ">
                 {Object.keys(menus).map((menuKey) => {
@@ -86,7 +89,13 @@ const Footer = () => {
                     </div>
                   );
                 })}
-                <Link to="/">Réservation</Link>
+                <Link
+                  target="_blank"
+                  to="https://www.thefork.fr/restaurant/seoul-lab-r813745?cc=84046-f71"
+                  className="hover:underline"
+                >
+                  Réservation
+                </Link>
               </div>
             )}
           </div>
@@ -96,8 +105,25 @@ const Footer = () => {
           </div>
 
           <div className="flex mt-8 gap-4">
-            <CustomIconLink to="" bgColor="#E1306C" icon={FaInstagram} />
+            <CustomIconLink
+              to="https://www.instagram.com/restaurant.seoul.lab/"
+              bgColor="#E1306C"
+              icon={FaInstagram}
+            />
+            <CustomIconLink
+              to="mailto:seoul.lab.paris@gmail.com"
+              bgColor="#60A5FA"
+              icon={FaEnvelope}
+            />
           </div>
+        </div>
+
+        {/* 우측: 개발자 이메일 */}
+        <div className="flex flex-col justify-end text-right text-cGrayBlack ">
+          <a href="mailto:hanjun.kim.dev@gmail.com">
+            <span className="text-[10px]">Développé par</span>
+            <p className="text-cBlue text-[10px]">Kim</p>
+          </a>
         </div>
       </div>
     </div>

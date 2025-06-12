@@ -49,7 +49,7 @@ const SlideView = () => {
   return (
     <div className={slideView.container}>
       <div className="flex justify-center overflow-hidden gap-2">
-        {!isMobile && (
+        {/* {!isMobile && (
           <div className={slideView.slideImageWrapperHalf} onClick={prevSlide}>
             <div className={slideView.darkOverlay}>
               <button
@@ -67,7 +67,7 @@ const SlideView = () => {
               style={{ width: "100%" }}
             />
           </div>
-        )}
+        )} */}
 
         <Link
           className={slideView.slideImageWrapper}
@@ -83,12 +83,19 @@ const SlideView = () => {
           />
           <div className={slideView.slideOverlay}>
             <h2 className={slideView.slideTitle}>
-              {getSlideContent(currentSlide).subtitle}
+              <p className={"text-lg text-cWhite"}>
+                {getSlideContent(currentSlide).subsubtitle}
+              </p>
+            </h2>
+            <h2 className={slideView.slideTitle}>
+              <p className={"text-md text-cWhite"}>
+                {getSlideContent(currentSlide).subtitle}
+              </p>
             </h2>
           </div>
         </Link>
 
-        {!isMobile && (
+        {/* {!isMobile && (
           <div className={slideView.slideImageWrapperHalf} onClick={nextSlide}>
             <div className={slideView.darkOverlay}>
               <button aria-label="Next Slide" className={slideView.arrowRight}>
@@ -103,7 +110,7 @@ const SlideView = () => {
               style={{ width: "100%" }}
             />
           </div>
-        )}
+        )} */}
       </div>
 
       <SlideControl
