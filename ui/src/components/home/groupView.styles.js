@@ -5,17 +5,15 @@ const group = {
   headerTitle: "text-xl font-bold",
   headerSubtitle: "text-sm",
   controlsContainer:
-    "mt-4 tablet-lg:mt-2 flex items-end justify-end section-padding",
+    "mt-4 mb-3 tablet-lg:mt-2 flex items-end justify-end section-padding",
   fingerScroll: "flex pr-5 tablet-lg:hidden",
   buttonContainer: "hidden tablet-lg:flex",
   button: "mx-2 p-2",
   buttonDisabled: "cursor-not-allowed opacity-50",
   slideContainer:
-    "no-scrollbar flex overflow-x-auto section-padding scroll-smooth py-2",
+    "no-scrollbar flex overflow-x-auto section-padding scroll-smooth",
   slide: "flex-shrink-0 flex flex-col overflow-hidden tablet-lg:flex-row",
   invisibleSlide: "invisible mx-[-8px] w-0",
-  mainImageContainer:
-    "group relative h-[400px] w-[50vh] tablet-lg:w-[50vh] p-1 tablet-lg:h-[600px]",
   mainImage: "h-full w-full rounded-main object-cover transition",
   // duration-300 group-hover:opacity-70
   evenSlide: "",
@@ -23,8 +21,8 @@ const group = {
   // overlay:
   //   "absolute inset-0 flex cursor-pointer items-center justify-center bg-white bg-opacity-10 opacity-0 transition duration-300 group-hover:opacity-100",
   overlayIcon: "text-3xl text-black",
-  subImageContainer:
-    "flex h-[400px] tablet-lg:h-[600px] w-[50vh] tablet-lg:w-[30vh] tablet-lg:flex-col",
+  mainImageContainer: "group relative h-[420px] w-[300px] p-1",
+  subImageContainer: "flex tablet-lg:flex-col h-[420px] w-[200px]",
   subImage: "group relative h-1/2 w-full overflow-hidden p-1",
   subImageContent: "h-full w-full rounded-main transition  object-cover",
   // duration-300 group-hover:opacity-70

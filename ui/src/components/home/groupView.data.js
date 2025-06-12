@@ -45,7 +45,7 @@ const images = [
 ];
 
 // 슬라이드 개수
-const SLIDE_COUNT = 5;
+const SLIDE_COUNT = 8;
 // 슬라이드당 이미지 수 (대표 1 + 서브 2)
 const IMAGES_PER_SLIDE = 3;
 
