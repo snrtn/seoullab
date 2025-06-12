@@ -11,7 +11,7 @@ const group = {
   button: "mx-2 p-2",
   buttonDisabled: "cursor-not-allowed opacity-50",
   slideContainer:
-    "no-scrollbar flex overflow-x-auto section-padding scroll-smooth",
+    "no-scrollbar ml-3 flex overflow-x-auto section-padding scroll-smooth",
   slide: "flex-shrink-0 flex flex-col overflow-hidden tablet-lg:flex-row",
   invisibleSlide: "invisible mx-[-8px] w-0",
   mainImage: "h-full w-full rounded-main object-cover transition",
@@ -22,7 +22,8 @@ const group = {
   //   "absolute inset-0 flex cursor-pointer items-center justify-center bg-white bg-opacity-10 opacity-0 transition duration-300 group-hover:opacity-100",
   overlayIcon: "text-3xl text-black",
   mainImageContainer: "group relative h-[420px] w-[300px] p-1",
-  subImageContainer: "flex tablet-lg:flex-col h-[420px] w-[200px]",
+  subImageContainer:
+    "flex tablet-lg:flex-col h-[420px] w-[300px] tablet-lg:w-[200px]",
   subImage: "group relative h-1/2 w-full overflow-hidden p-1",
   subImageContent: "h-full w-full rounded-main transition  object-cover",
   // duration-300 group-hover:opacity-70
