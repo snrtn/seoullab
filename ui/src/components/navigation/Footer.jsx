@@ -117,14 +117,6 @@ const Footer = () => {
             />
           </div>
         </div>
-
-        {/* 우측: 개발자 이메일 */}
-        <div className="flex flex-col justify-end text-right text-cGrayBlack ">
-          <a href="mailto:hanjun.kim.dev@gmail.com">
-            <span className="text-[10px]">Développé par</span>
-            <p className="text-cBlue text-[10px]">Kim</p>
-          </a>
-        </div>
       </div>
     </div>
   );
