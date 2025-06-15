@@ -10,9 +10,9 @@ const slideView = {
   slideLink: "absolute inset-0 flex items-center justify-center",
   slideContent:
     "relative flex h-full w-full items-start tablet-lg:items-center justify-center pt-4 tablet-lg:pt-0",
-  imageWrapper: "relative h-full w-full",
-  darkOverlay: "absolute inset-0 bg-bgBlack bg-opacity-80 cursor-pointer",
-  darkCenterOverlay: "absolute inset-0 bg-bgBlack bg-opacity-35",
+  imageWrapper: "relative h-full w-full items-center justify-center",
+  darkOverlay: "absolute inset-0 bg-bgBlack cursor-pointer",
+  darkCenterOverlay: "absolute inset-0 bg-bgBlack bg-opacity-0",
 
   slideOverlay:
     "absolute inset-0 flex w-full flex-col items-center text-center justify-center section-padding translate-y-[-10%] tablet-lg:translate-y-[-18%]",

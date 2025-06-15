@@ -1,18 +1,9 @@
 const horizontalImages = [
-  "DSCF4207.JPG",
-  "DSCF4211.JPG",
   "DSCF4217.JPG",
-  "DSCF4224.JPG",
   "DSCF4244.JPG",
-  "DSCF4271.JPG",
-  "DSCF4272.JPG",
-  "DSCF4292.JPG",
   "DSCF4293.JPG",
-  "DSCF4484.JPG",
   "DSCF4588.JPG",
   "DSCF4657.JPG",
-  "DSCF4740.JPG",
-  "DSCF4747.JPG",
 ];
 
 const mobileImages = [
@@ -67,23 +58,23 @@ const shuffleAndPick = (arr, count) =>
 const titles = [
   {
     title: "Seoul Lab",
-    subtitle: "Restaurant coréen contemporain à Paris",
-    subsubtitle: "파리의 현대적인 한식당",
+    // subtitle: "Restaurant coréen contemporain à Paris",
+    // subsubtitle: "파리의 현대적인 한식당",
   },
   {
     title: "Cuisine Coréenne",
-    subtitle: "Spécialités traditionnelles et modernes de Corée",
-    subsubtitle: "전통과 현대를 아우르는 한국 요리",
+    // subtitle: "Spécialités traditionnelles et modernes de Corée",
+    // subsubtitle: "전통과 현대를 아우르는 한국 요리",
   },
   {
     title: "Restaurant Coréen",
-    subtitle: "Savourez la Corée au cœur de Paris",
-    subsubtitle: "파리 중심에서 즐기는 한식",
+    // subtitle: "Savourez la Corée au cœur de Paris",
+    // subsubtitle: "파리 중심에서 즐기는 한식",
   },
   {
     title: "Plats à Partager",
-    subtitle: "Accompagnements et spécialités coréennes à partager",
-    subsubtitle: "함께 나누는 한국식 반찬과 요리",
+    // subtitle: "Accompagnements et spécialités coréennes à partager",
+    // subsubtitle: "함께 나누는 한국식 반찬과 요리",
   },
 ];
 
