@@ -91,7 +91,7 @@ const Footer = () => {
                 })}
                 <Link
                   target="_blank"
-                  to="https://www.thefork.fr/restaurant/seoul-lab-r813745?cc=84046-f71"
+                  to="https://maps.app.goo.gl/C7kRU9qYrdpFhzuC8"
                   className="hover:underline"
                 >
                   Réservation
