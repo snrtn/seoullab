@@ -6,7 +6,7 @@ const NavIcons = () => {
     <div className={navIcons.container}>
       <Link
         target="_blank"
-        to="https://maps.app.goo.gl/RwvTHcSVrxduGeof6"
+        to="https://maps.app.goo.gl/HQBzF8BhbYVMLhg36"
         rel="The Fork, Restaurant Seoul Lab à Paris  "
         className={navIcons.link}
       >

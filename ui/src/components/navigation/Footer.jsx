@@ -91,7 +91,7 @@ const Footer = () => {
                 })}
                 <Link
                   target="_blank"
-                  to="https://maps.app.goo.gl/C7kRU9qYrdpFhzuC8"
+                  to="https://maps.app.goo.gl/HQBzF8BhbYVMLhg36"
                   className="hover:underline"
                 >
                   Réservation
