@@ -1,5 +1,5 @@
 const slideView = {
-  container: "relative w-full h-[80%] tablet-lg:h-[85vh] overflow-hidden",
+  container: "relative w-full h-[80%] tablet-lg:h-[80vh] overflow-hidden",
   slideImageWrapper:
     "w-[100%] bg-center bg-cover bg-no-repeat flex-shrink-0 overflow-hidden relative",
   slideImageWrapperHalf:

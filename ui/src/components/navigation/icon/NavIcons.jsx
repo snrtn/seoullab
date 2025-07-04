@@ -9,6 +9,7 @@ const NavIcons = () => {
         to="https://maps.app.goo.gl/HQBzF8BhbYVMLhg36"
         rel="The Fork, Restaurant Seoul Lab à Paris  "
         className={navIcons.link}
+        title="The Fork, Restaurant Seoul Lab à Paris  "
       >
         Réservation
       </Link>

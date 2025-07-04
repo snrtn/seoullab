@@ -4,7 +4,7 @@ import slideView from "./slideView.styles";
 import useMediaQuery from "@hooks/useMediaQuery";
 import slides from "./slideView.data";
 import { Link } from "react-router-dom";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+// import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const SlideView = () => {
   const isMobile = useMediaQuery(480);

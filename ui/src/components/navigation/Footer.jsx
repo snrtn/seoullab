@@ -90,6 +90,7 @@ const Footer = () => {
                   );
                 })}
                 <Link
+                  title="Réservation une place"
                   target="_blank"
                   to="https://maps.app.goo.gl/HQBzF8BhbYVMLhg36"
                   className="hover:underline"
@@ -109,11 +110,13 @@ const Footer = () => {
               to="https://www.instagram.com/restaurant.seoul.lab/"
               bgColor="#E1306C"
               icon={FaInstagram}
+              title="instagram, restaurant.seoul.lab"
             />
             <CustomIconLink
               to="mailto:seoul.lab.paris@gmail.com"
               bgColor="#60A5FA"
               icon={FaEnvelope}
+              title="seoul.lab.paris@gmail.com"
             />
           </div>
         </div>

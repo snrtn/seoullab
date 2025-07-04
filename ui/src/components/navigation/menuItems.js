@@ -8,5 +8,9 @@ export const menuItems = [
     image: "/assets/menu/side.png",
   },
   { key: "alcohol", label: "À Boire", image: "/assets/menu/drink.png" },
-  { key: "drink", label: "À Boire", image: "/assets/menu/drink2.png" },
+  {
+    key: "drink",
+    label: "À Boire(Thé / Café / Boissons)",
+    image: "/assets/menu/drink2.png",
+  },
 ];

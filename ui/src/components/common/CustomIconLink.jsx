@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import "./customIconLink.css";
 
-const CustomIconLink = ({ to, bgColor, icon: Icon }) => {
+const CustomIconLink = ({ to, bgColor, icon: Icon, title }) => {
   const content = (
     <div
       className="custom-icon-link-container"
@@ -18,6 +18,7 @@ const CustomIconLink = ({ to, bgColor, icon: Icon }) => {
       target="_blank"
       rel="noopener noreferrer"
       style={{ textDecoration: "none" }}
+      title={title}
     >
       {content}
     </Link>

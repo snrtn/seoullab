@@ -91,10 +91,15 @@ const Header = ({
       >
         <div className={header.wrapper}>
           <div className={header.left}>
-            <button className={header.icon} onClick={onMenuToggle}>
+            <button
+              className={header.icon}
+              onClick={onMenuToggle}
+              type="button"
+              aria-label="open menu nav"
+            >
               <FaBars />
             </button>
-            <Link to="/">
+            <Link to="/" title="seoul lav home page">
               <h1 className={header.logoText}>SEOUL LAB</h1>
             </Link>
           </div>

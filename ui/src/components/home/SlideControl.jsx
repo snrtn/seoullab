@@ -1,5 +1,4 @@
 import { useRef, useEffect, useCallback } from "react";
-import PropTypes from "prop-types";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { RxSlash } from "react-icons/rx";
 import slideControl from "./slideControl.styles";
@@ -78,22 +77,6 @@ const SlideControl = ({
       </div>
     </div>
   );
-};
-
-SlideControl.propTypes = {
-  currentSlide: PropTypes.number.isRequired,
-  totalSlides: PropTypes.number.isRequired,
-  nextSlide: PropTypes.func.isRequired,
-  prevSlide: PropTypes.func.isRequired,
-  togglePlay: PropTypes.func.isRequired,
-  isPlaying: PropTypes.bool.isRequired,
-  slides: PropTypes.arrayOf(
-    PropTypes.shape({
-      title: PropTypes.string.isRequired,
-      description: PropTypes.string.isRequired,
-    })
-  ).isRequired,
-  setSlide: PropTypes.func.isRequired,
 };
 
 export default SlideControl;

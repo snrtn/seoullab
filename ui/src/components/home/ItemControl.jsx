@@ -1,4 +1,3 @@
-import PropTypes from "prop-types";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import itemControl from "./itemControl.styles";
 
@@ -25,13 +24,6 @@ const ItemControl = ({ nextSlide, prevSlide, isAtStart, isAtEnd }) => {
       </button>
     </div>
   );
-};
-
-ItemControl.propTypes = {
-  nextSlide: PropTypes.func.isRequired,
-  prevSlide: PropTypes.func.isRequired,
-  isAtStart: PropTypes.bool.isRequired,
-  isAtEnd: PropTypes.bool.isRequired,
 };
 
 export default ItemControl;

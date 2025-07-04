@@ -1,6 +1,4 @@
 import React, { useRef, useEffect } from "react";
-import PropTypes from "prop-types";
-import { Link } from "react-router-dom";
 import itemView from "./itemView.styles";
 import ItemControl from "./ItemControl";
 
@@ -95,10 +93,6 @@ const SlideShow = ({ slides }) => {
       />
     </div>
   );
-};
-
-SlideShow.propTypes = {
-  slides: PropTypes.array.isRequired,
 };
 
 export default SlideShow;

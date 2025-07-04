@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/(.*).txt", "destination": "/$1.txt" },
+    { "source": "/(.*).xml", "destination": "/$1.xml" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}

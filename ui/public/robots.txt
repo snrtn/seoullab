@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: http://seoul-lab.fr/sitemap.xml

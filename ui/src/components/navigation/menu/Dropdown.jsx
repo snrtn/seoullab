@@ -61,7 +61,7 @@ const Dropdown = ({ menuKey, data, isActive, setActiveDropdown }) => {
           <div key={section.title}>
             <div className="grid grid-flow-col grid-rows-3 gap-4">
               {section.items.map((item) => (
-                <Link key={item.label} to={item.href}>
+                <Link key={item.label} to={item.href} title={item.label}>
                   <div className={navMenu.listItem}>{t(item.label)}</div>
                 </Link>
               ))}
