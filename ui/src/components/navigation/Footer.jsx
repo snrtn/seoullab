@@ -95,6 +95,14 @@ const Footer = () => {
                   to="https://maps.app.goo.gl/HQBzF8BhbYVMLhg36"
                   className="hover:underline"
                 >
+                  Plan d’accès
+                </Link>
+                <Link
+                  title="Réservation une place"
+                  target="_blank"
+                  to="https://widget.thefork.com/152f5889-d257-457e-8f85-343b0e00a500"
+                  className="hover:underline"
+                >
                   Réservation
                 </Link>
               </div>

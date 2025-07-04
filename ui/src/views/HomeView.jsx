@@ -1,6 +1,7 @@
 import SlideView from "@home/SlideView";
 import ItemView from "@home/ItemView";
 import GroupView from "@home/GroupView";
+import { Link } from "react-router-dom";
 
 const HomeView = () => {
   return (
@@ -9,8 +10,16 @@ const HomeView = () => {
       <div className="flex bg-bgWhite flex-col items-center justify-center text-center space-y-6 pt-60 pb-20">
         <div>
           <p className="font-semibold">
-            91 Rue Amelot, <span className="font-bold">75011</span> Paris
+            <Link
+              title="Plan d’accès seoul lab"
+              target="_blank"
+              to="https://maps.app.goo.gl/HQBzF8BhbYVMLhg36"
+              className="hover:underline"
+            >
+              📍 91 Rue Amelot, <span className="font-bold">75011</span> Paris
+            </Link>
           </p>
+
           <p className="text-sm">+33) 6 60 67 67 21</p>
         </div>
 
