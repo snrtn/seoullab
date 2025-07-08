@@ -115,7 +115,7 @@ const Footer = () => {
 
           <div className="flex mt-8 gap-4">
             <CustomIconLink
-              to="https://www.instagram.com/restaurant.seoul.lab/"
+              to="https://www.instagram.com/restaurant.seoul.lab/?hl=fr"
               bgColor="#E1306C"
               icon={FaInstagram}
               title="instagram, restaurant.seoul.lab"

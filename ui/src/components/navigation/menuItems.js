@@ -1,16 +1,24 @@
 export const menuItems = [
-  { key: "lunch", label: "Lunch menu", image: "/assets/menu/lunch.png" },
-  { key: "seoul", label: "Seoul menu", image: "/assets/menu/seoul.png" },
-  { key: "lab", label: "Lab menu", image: "/assets/menu/lab.png" },
+  {
+    key: "lunch",
+    label: "MENU MIDI | Lunch menu",
+    image: "/assets/menu/lunch.png",
+  },
+  { key: "seoul", label: "ENTRÉES", image: "/assets/menu/seoul.png" },
+  { key: "lab", label: "PLATS", image: "/assets/menu/lab.png" },
   {
     key: "sides",
-    label: "Sides / Desserts",
+    label: "Accompagnements / Desserts",
     image: "/assets/menu/side.png",
   },
-  { key: "alcohol", label: "À Boire", image: "/assets/menu/drink.png" },
+  {
+    key: "alcohol",
+    label: "VIN | Wine | 와인",
+    image: "/assets/menu/drink.png",
+  },
   {
     key: "drink",
-    label: "À Boire(Thé / Café / Boissons)",
+    label: "BOISSONS I DRINKS",
     image: "/assets/menu/drink2.png",
   },
 ];

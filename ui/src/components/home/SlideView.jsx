@@ -48,7 +48,7 @@ const SlideView = () => {
 
   return (
     <div className={slideView.container}>
-      <div className="flex justify-center overflow-hidden gap-2">
+      <div className="flex justify-end overflow-hidden gap-2">
         {/* {!isMobile && (
           <div className={slideView.slideImageWrapperHalf} onClick={prevSlide}>
             <div className={slideView.darkOverlay}>
@@ -69,19 +69,18 @@ const SlideView = () => {
           </div>
         )} */}
 
-        <Link
+        {/* <Link
           className={slideView.slideImageWrapper}
           to={"/"} // link removed
           aria-label={`Current slide: ${getSlideContent(currentSlide).title}`}
-        >
-          <div className={slideView.darkCenterOverlay}></div>
-          <img
-            src={getSlideImage(currentSlide)}
-            alt={getSlideContent(currentSlide).title || "Current slide"}
-            className={slideView.slideImage}
-            style={{ height: "100%" }}
-          />
-          <div className={slideView.slideOverlay}>
+        > */}
+        {/* <div className={slideView.darkCenterOverlay}></div> */}
+        <img
+          src={getSlideImage(currentSlide)}
+          alt={getSlideContent(currentSlide).title || "Current slide"}
+          className={slideView.slidePhotos}
+        />
+        {/* <div className={slideView.slideOverlay}>
             <h2 className={slideView.slideTitle}>
               <p className={"text-lg text-cWhite"}>
                 {getSlideContent(currentSlide).subsubtitle}
@@ -92,8 +91,8 @@ const SlideView = () => {
                 {getSlideContent(currentSlide).subtitle}
               </p>
             </h2>
-          </div>
-        </Link>
+          </div> */}
+        {/* </Link> */}
 
         {/* {!isMobile && (
           <div className={slideView.slideImageWrapperHalf} onClick={nextSlide}>
