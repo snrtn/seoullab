@@ -20,15 +20,15 @@ const HomeView = () => {
             </Link>
           </p>
 
-          <p className="text-sm">+33) 6 60 67 67 21</p>
+          <p className="text-sm">+33) 1 87 05 57 00</p>
         </div>
 
         <div className="space-y-2">
           <p className="font-semibold">Horaires d'ouverture</p>
           <div className="grid grid-cols-2 gap-x-8 text-sm">
             <div className="text-left space-y-1">
-              <p>Le déjeuner</p>
-              <p>Le soir</p>
+              <p>Du mardi au samedi</p>
+              <p>Du mardi au samedi</p>
               <p>Dimanche</p>
             </div>
             <div className="text-left space-y-1">
