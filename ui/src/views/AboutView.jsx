@@ -38,19 +38,31 @@ const ScrollSnapFullpage = () => {
         </div>
       </section>
 
-      {/* SECTION 3 */}
+      {/* SECTION 3-1 : Brand Name Philosophy */}
       <section className="h-screen w-screen snap-start flex items-center justify-center text-center px-6">
         <div className="max-w-3xl">
-          <p className="text-lg leading-relaxed mb-4">
+          <p className="text-lg leading-relaxed">
             Le nom <strong>SEOUL LAB</strong> a été choisi avec soin pour
             incarner la vision culinaire du chef Juwon Kim : un pont entre
             tradition et innovation.
           </p>
-          <p className="text-lg leading-relaxed mb-4">
+        </div>
+      </section>
+
+      {/* SECTION 3-2 : Meaning of “Seoul” */}
+      <section className="h-screen w-screen snap-start flex items-center justify-center text-center px-6">
+        <div className="max-w-3xl">
+          <p className="text-lg leading-relaxed">
             “Seoul”, capitale de la Corée du Sud, symbolise l’héritage, la
             culture et les racines. Mais le mot évoque aussi “soul” – l’âme –,
             en écho à une cuisine sincère, émotionnelle et familière.
           </p>
+        </div>
+      </section>
+
+      {/* SECTION 3-3 : Meaning of “Lab” */}
+      <section className="h-screen w-screen snap-start flex items-center justify-center text-center px-6">
+        <div className="max-w-3xl">
           <p className="text-lg leading-relaxed">
             “Lab”, abréviation de “laboratory”, fait référence à un lieu
             d’expérimentation, de recherche, où textures et saveurs sont
