@@ -11,6 +11,16 @@ const menus = {
       },
     ],
   },
+  about: {
+    label: "À propos",
+    href: "/about",
+    sections: [
+      {
+        title: "À propos",
+        items: [{ label: "À propos", href: "/about" }],
+      },
+    ],
+  },
   menu: {
     label: "Menus",
     sections: [
@@ -23,6 +33,7 @@ const menus = {
       },
     ],
   },
+
   // contact: {
   //   label: "contact",
   //   href: "/",
