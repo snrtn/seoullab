@@ -1,18 +1,16 @@
 const images = [
-  "HOOR5841.jpg",
-  "HOOR5847.jpg",
-  "HOOR6001.jpg",
-  "HOOR6369.jpg",
-  "HOOR6626.jpg",
-  "DSCF4169.webp",
-  "DSCF4178.webp",
-  "DSCF4181.webp",
-  "DSCF4188.webp",
-  "DSCF4189.webp",
-  "DSCF4190.webp",
+  "DSCF4267.JPG",
+  "DSCF4310.JPG",
+  "DSCF4293.JPG",
+  "DSCF4250.JPG",
+  "DSCF4443.JPG",
+  "DSCF4217.JPG",
+  "DSCF4530.JPG",
   "DSCF4533.webp",
-  "DSCF4655.webp",
-  "DSCF4663.webp",
+  "DSCF4657.JPG",
+  "HOOR6626.jpg",
+  "DSCF4397.JPG",
+  "DSCF4188.webp",
 ];
 
 // 슬라이드 개수
@@ -20,10 +18,9 @@ const SLIDE_COUNT = 4;
 // 슬라이드당 이미지 수 (대표 1 + 서브 2)
 const IMAGES_PER_SLIDE = 3;
 
-// 셔플 후 필요한 개수만큼 추출
-const allImages = [...images];
-const shuffled = [...allImages].sort(() => 0.5 - Math.random());
-const selected = shuffled.slice(0, SLIDE_COUNT * IMAGES_PER_SLIDE);
+// 필요한 이미지 수 계산
+const neededImageCount = SLIDE_COUNT * IMAGES_PER_SLIDE;
+const selected = images.slice(0, neededImageCount); // 순차 선택
 
 // 슬라이드 생성
 const slides = [

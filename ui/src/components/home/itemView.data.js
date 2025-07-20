@@ -4,20 +4,16 @@ const images = [
   "HOOR6001.jpg",
   "HOOR6369.jpg",
   "HOOR6626.jpg",
+  "DSCF4162.webp",
+  "DSCF4165.webp",
+  "DSCF4169.webp",
   "DSCF4178.webp",
   "DSCF4181.webp",
-  "DSCF4188.webp",
-  "DSCF4189.webp",
-  "DSCF4190.webp",
-  "DSCF4533.webp",
-  "DSCF4655.webp",
-  "DSCF4663.webp",
 ];
 
-// 중복 없이 섞어서 필요한 수만큼 추출
-const shuffledImages = [...images].sort(() => 0.5 - Math.random());
-const neededCount = 10; // 이미지 쓸 개수
-const selectedImages = shuffledImages.slice(0, neededCount);
+// 필요한 이미지 개수
+const neededCount = 10;
+const selectedImages = images.slice(0, neededCount); // 앞에서부터 순차적으로 선택
 
 // 텍스트 정보
 const titles = [
@@ -33,6 +29,7 @@ const titles = [
   "DESSERTS",
 ];
 
+// 슬라이드 생성 (양쪽 빈 항목 포함)
 const slides = [
   {
     image: "",

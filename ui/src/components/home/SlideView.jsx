@@ -4,6 +4,8 @@ import slideView from "./slideView.styles";
 import useMediaQuery from "@hooks/useMediaQuery";
 import slides from "./slideView.data";
 import { Link } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 // import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const SlideView = () => {
@@ -37,7 +39,7 @@ const SlideView = () => {
   const getSlideImage = (index) => {
     const correctIndex = (index + slides.length) % slides.length;
     return isMobile
-      ? slides[correctIndex].mobileImage
+      ? slides[correctIndex].desktopImage
       : slides[correctIndex].desktopImage;
   };
 
@@ -75,7 +77,7 @@ const SlideView = () => {
           aria-label={`Current slide: ${getSlideContent(currentSlide).title}`}
         > */}
         {/* <div className={slideView.darkCenterOverlay}></div> */}
-        <img
+        <LazyLoadImage
           src={getSlideImage(currentSlide)}
           alt={getSlideContent(currentSlide).title || "Current slide"}
           className={slideView.slidePhotos}
