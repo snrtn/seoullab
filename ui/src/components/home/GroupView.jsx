@@ -64,13 +64,22 @@ const GroupView = () => {
           </h2>
           <div className="mt-3">
             <p className={group.headerSubtitle}>
-              De plus, certains de nos plats sont proposés en quantités
-              limitées, car nous souhaitons préserver la fraîcheur de nos
-              ingrédients.
+              Le nom <strong>SEOUL LAB</strong> a été choisi avec soin pour
+              incarner la vision culinaire du chef Juwon Kim : un pont entre
+              tradition et innovation.
             </p>
             <p className={group.headerSubtitle}>
-              Nous préférons ne pas conserver d’ingrédients d’un jour à l’autre
-              et vous remercions pour votre aimable compréhension.
+              “Seoul”, capitale de la Corée du Sud, symbolise l’héritage, la
+              culture et les racines. Mais le mot évoque aussi “soul” – l’âme –,
+              en écho à une cuisine sincère, émotionnelle et familière.
+            </p>
+            <p className={group.headerSubtitle}>
+              “Lab”, abréviation de “laboratory”, fait référence à un lieu
+              d’expérimentation, de recherche, où textures et saveurs sont
+              explorées avec créativité.
+            </p>
+            <p className={group.headerSubtitle}>
+              Chaque plat est une rencontre entre passé et futur.
             </p>
           </div>
         </div>

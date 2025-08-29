@@ -15,16 +15,19 @@ const ItemView = () => {
         </h2>
         <div className="mt-3">
           <p className={itemView.description}>
-            Chaque plat est préparé à la commande, et nos chefs s'efforcent
-            toujours de vous offrir la meilleure qualité possible.
+            Seoul Lab s’est installé discrètement sur la rue Amelot, une rue
+            charnière entre le 3ᵉ arrondissement bourgeois et l’esprit bohème du
+            11ᵉ.
           </p>
           <p className={itemView.description}>
-            Nous mettons tout en oeuvre chaque jour pour vous satisfaire et vous
-            remercions sincèrement pour votre compréhension.
+            Une position presque symbolique pour ce lieu qui marie tradition et
+            modernité. Avec une façade sobre et une présence limitée sur les
+            réseaux sociaux,
           </p>
           <p className={itemView.description}>
-            Nous vous prions de bien vouloir nous excuser pour d’éventuels
-            délais.
+            Seoul Lab se distingue par une élégance discrète. Ce choix assumé
+            découle d’une volonté claire : tout le temps, l’énergie et les
+            moyens ont été investis en cuisine.
           </p>
         </div>
       </div>

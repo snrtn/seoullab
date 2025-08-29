@@ -14,7 +14,7 @@ const ScrollSnapFullpage = () => {
       </button>
 
       {/* SECTION 1 */}
-      <section className="h-screen w-screen snap-start flex items-center justify-center text-center px-6">
+      {/* <section className="h-screen w-screen snap-start flex items-center justify-center text-center px-6">
         <div className="max-w-3xl">
           <h1 className="text-3xl font-bold mb-6">SEOUL LAB</h1>
           <p className="text-lg leading-relaxed">
@@ -24,10 +24,10 @@ const ScrollSnapFullpage = () => {
             tradition et modernité.
           </p>
         </div>
-      </section>
+      </section> */}
 
       {/* SECTION 2 */}
-      <section className="h-screen w-screen snap-start flex items-center justify-center text-center px-6">
+      {/* <section className="h-screen w-screen snap-start flex items-center justify-center text-center px-6">
         <div className="max-w-3xl">
           <p className="text-lg leading-relaxed">
             Avec une façade sobre et une présence limitée sur les réseaux
@@ -36,10 +36,10 @@ const ScrollSnapFullpage = () => {
             les moyens ont été investis en cuisine.
           </p>
         </div>
-      </section>
+      </section> */}
 
       {/* SECTION 3-1 : Brand Name Philosophy */}
-      <section className="h-screen w-screen snap-start flex items-center justify-center text-center px-6">
+      {/* <section className="h-screen w-screen snap-start flex items-center justify-center text-center px-6">
         <div className="max-w-3xl">
           <p className="text-lg leading-relaxed">
             Le nom <strong>SEOUL LAB</strong> a été choisi avec soin pour
@@ -47,10 +47,10 @@ const ScrollSnapFullpage = () => {
             tradition et innovation.
           </p>
         </div>
-      </section>
+      </section> */}
 
       {/* SECTION 3-2 : Meaning of “Seoul” */}
-      <section className="h-screen w-screen snap-start flex items-center justify-center text-center px-6">
+      {/* <section className="h-screen w-screen snap-start flex items-center justify-center text-center px-6">
         <div className="max-w-3xl">
           <p className="text-lg leading-relaxed">
             “Seoul”, capitale de la Corée du Sud, symbolise l’héritage, la
@@ -58,10 +58,10 @@ const ScrollSnapFullpage = () => {
             en écho à une cuisine sincère, émotionnelle et familière.
           </p>
         </div>
-      </section>
+      </section> */}
 
       {/* SECTION 3-3 : Meaning of “Lab” */}
-      <section className="h-screen w-screen snap-start flex items-center justify-center text-center px-6">
+      {/* <section className="h-screen w-screen snap-start flex items-center justify-center text-center px-6">
         <div className="max-w-3xl">
           <p className="text-lg leading-relaxed">
             “Lab”, abréviation de “laboratory”, fait référence à un lieu
@@ -70,7 +70,7 @@ const ScrollSnapFullpage = () => {
             et futur.
           </p>
         </div>
-      </section>
+      </section> */}
 
       {/* SECTION 4 */}
       {/* SECTION 1 — Le Chef: 소개 */}
